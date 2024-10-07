@@ -8,3 +8,15 @@ h1{
     color: #A68BA0;
     text-align: center;
 }
+
+.projects { 
+    display:flex; 
+    flex-wrap:wrap; 
+}
+.project {
+width: 30%;
+margin: 10px;
+padding: 20px 10px;
+background: rgba(204, 150, 0, 0.842); /* pick a color */
+border-radius: 25%;
+}
